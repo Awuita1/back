@@ -1,8 +1,24 @@
-header{
-  background-color: rgba(174,126,208);
-  padding: 26px 0;
-  text-align: center;
+header {
+  background-color: rgba(174, 126, 208);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  text-align: center; /* Opcional: para alinear texto dentro del header */
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra el logo verticalmente */
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+
 
 header h1{
   color: white;
